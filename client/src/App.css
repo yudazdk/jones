@@ -1,0 +1,44 @@
+.container {
+    width: 20%;
+}
+
+.container h3 {
+    text-align: center;
+}
+
+.form-group label {
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  width: 10em;
+  margin-right: 1em;
+}
+
+.form-input-text {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-input-error {
+  border-color: #cc0000;
+}
+
+.form-group {
+  margin-bottom: .5em;
+}
+
+.form-button {
+  cursor: pointer;
+  background-color: #0078e7;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.form-button:disabled {
+  opacity: .65;
+  cursor: none;
+}
+
+.button-holder {
+    text-align: center;
+}
